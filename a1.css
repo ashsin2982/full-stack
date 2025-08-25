@@ -1,0 +1,12 @@
+*{font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;margin:0;padding:0;}
+        h1{
+            color:darkblue; 
+            background-color: beige;
+        }
+        .highlight{
+            color:aquamarine;font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            background-color: rgb(190, 117, 6);
+        }
+        #special{
+            color:rgb(15, 226, 181)
+        } 

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jop appliction form</title>
+    <link rel="stylesheet" href="a2.css">
+    </head>
+    <body>
+        <h2>JOB APPLICATION FORM</h2>
+        <FORM action="/submit" method="post">
+            <fieldset>
+                <legend>Personal information</legend>
+                    <label for="firstname">FirstName</label>
+                    <input id="firstname" name="firstname" type="text" required>
+                    <label for="lastname">LastName</label>
+                    <input id="lastname" name="lastname" type="text" required>
+                <br><br>
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email"  placeholder="Enter your email" required>
+                <br><br>
+                    <label for="phone no">Phone no</label>
+                    <input id="phone no" name="phone no" type="tel" >
+                <br><br>
+            </fieldset>
+            <br>
+            <fieldset>
+                <legend>Job Details</legend>
+        <label class="req" for="position">Position Applied For</label>
+        <select id="position" name="position"  required >
+          <option value="">Select…</option>
+          <option >Software Engineer</option>
+          <option >Frontend Developer</option>
+          <option >Backend Developer</option>
+          <option >Data Analyst</option>
+          <option >UI/UX Designer</option>
+        </select>
+        <br><br>
+        <label for="experience">Year of Experience</label>
+        <input type="number" id="experience" name="experience" min="0" max="50" required>
+        </fieldset>
+        <fieldset>
+            <legend>Availability</legend>
+            <label for="start">Available Start Date :</label>
+            <input type="date" id="start" name="start" required>
+            <br><br>
+            <label for="relocate">Wiling to Relocate?</label>
+            <input type="radio" id="yes" name="relocate" value="yes">Yes
+            <input type="radio" id="no" name="relocate" value="no">No
+        </fieldset>
+        <button type="submit">Submit</button>
+        </FORM>
+    </body>
+</html>

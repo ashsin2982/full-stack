@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    </head>
+    <body>
+        <h2 id="top_heading">FORM</h2>
+        <FORM action="/submit" method="post">
+            <table border="1">
+                <TR>
+                    <td><label for="'name">Name</label></td>
+                    <td><input type="text" id="name" name="name" placeholder="Enter your name" required></td>
+                    <br><br>
+                </TR>
+                <tr>
+                    <td><label for="email">Email</label></td>
+                    <td><input type="email" id="email" name="email"  placeholder="Enter your email" required></td>
+                    <br><br>
+                </tr>
+                <tr>
+                    <td><label for="gender">Gender</label></td>
+                    <td><input type="radio" id="male" name="gender" value="male">Male
+                        <input type="radio" id="female" name="gender" value="female">Female
+                        <input type="radio" id="other" name="gender" value="other">Other
+                    </td>
+                </tr>
+                  <tr>
+                    <td><label for="date">DOB</label></td>
+                    <td><input type="date" id="date" name="date"></td>
+                    <br><br>
+                </tr>
+                  <tr>
+                    <td><label for="skills">Skills</label></td>
+                    <td><input type="checkbox"  name="skills" value="HTML">HTML
+                        <input type="checkbox"  name="skills" value="CSS">CSS
+                        <input type="checkbox"  name="skills" value="JAVASCRIPT">JAVASCRIPT
+                    </td>
+                    <br><br>
+                </tr>
+                <tr>
+                    <Td>
+                        <label for="country">Country</label></Td>
+                        <td><select id="country" name="country" required>
+                            <option value="">--Select--</option>
+                            <option value="India">India</option>
+                            <option value="USA">USA</option>
+                            <option value="Norway">Norway</option>
+                        </select>
+                    </Td>
+                </tr>
+            </table> 
+        </FORM>
+    </body>
+</html>

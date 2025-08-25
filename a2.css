@@ -1,0 +1,19 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: local;
+    padding:20px;
+}
+form{
+    max-width:500px;
+    margin:auto;
+    padding:20px;
+}
+h2{
+    text-align: center;
+}
+legend{
+    font-weight: bold;
+}
+button:hover{
+    background: fixed;
+}
