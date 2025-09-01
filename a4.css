@@ -1,0 +1,65 @@
+body {
+            font-family: 'Segoe UI', sans-serif;
+            margin: 20px;
+            padding-left: 200px;
+            background-color: #fdfdfd;
+        }
+ .sidebar {
+            width: 200px;
+            background-color: #333;
+            height: 100vh;
+            position: fixed;
+            top: 0;
+            left: 0;
+            padding-top: 20px;
+        }
+ .sidebar a {
+        display: block;
+        color: white;
+        padding: 15px 20px;
+        text-decoration: none;
+        transition: background 0.3s;
+    }
+.sidebar a:hover {
+            background-color: #575757;
+    }
+h1, h2 {
+    text-align: center;
+    color: #04634e;
+    }
+
+.menu-section {
+        margin-bottom: 30px;
+        background-color: #fff;
+        padding: 15px;
+        border-radius: 6px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+
+.menu-section h4 {
+        margin-top: 0;
+        border-bottom: 2px solid #4CAF50;
+        padding-bottom: 5px;
+    }
+
+.menu-item {
+        display: flex;
+        justify-content: space-between;
+        padding: 8px 0;
+        border-bottom: 1px dashed #ccc;
+    }
+
+.menu-item:last-child {
+        border-bottom: none;
+    }
+
+.menu-item-name {
+        font-weight: bold;
+    }
+
+.menu-item-price {
+            color: #4CAF50;
+        }
+
+
+        
