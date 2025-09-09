@@ -1,0 +1,45 @@
+body {
+  background: #fafafa;
+  font-family: Arial, sans-serif;
+}
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  gap: 30px;
+}
+
+.card {
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 6px 24px rgba(0,0,0,0.08);
+  padding: 24px;
+  width: 220px;
+  text-align: center;
+  transition: box-shadow 0.3s;
+}
+
+.card h4 {
+  margin-top: 0;
+}
+
+.card p {
+  color: #666;
+  font-size: 0.97em;
+}
+
+.card button {
+  margin-top: 16px;
+  padding: 8px 18px;
+  background: #4bb4fa;
+  border: none;
+  color: #fff;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.card:hover {
+  box-shadow: 0 12px 36px rgba(0,0,0,0.16);
+}

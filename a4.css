@@ -14,14 +14,14 @@ body {
             padding-top: 20px;
         }
  .sidebar a {
-        display: block;
+        display:block;
         color: white;
         padding: 15px 20px;
         text-decoration: none;
         transition: background 0.3s;
     }
 .sidebar a:hover {
-            background-color: #575757;
+    background-color: #575757;
     }
 h1, h2 {
     text-align: center;
@@ -43,8 +43,6 @@ h1, h2 {
     }
 
 .menu-item {
-        display: flex;
-        justify-content: space-between;
         padding: 8px 0;
         border-bottom: 1px dashed #ccc;
     }
